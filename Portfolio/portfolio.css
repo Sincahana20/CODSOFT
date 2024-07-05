@@ -1,0 +1,348 @@
+ body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            font-family: 'Vivaldi', sans-serif;
+            background-color: #eaf6ae;
+            color: black;
+            padding: 20px;
+            text-align: left;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        header nav a {
+            color: black;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: 800; /* Bold font for navigation links */
+        }
+        header nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+        .main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 50px;
+        }
+        .main .content {
+            text-align: left;
+            flex: 1;
+        }
+        .main img {
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            margin-left: 20px;
+        }
+        .main h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+        .main p {
+            font-size: 1.2em;
+            margin: 10px 0;
+            max-width: 600px;
+        }
+        .main .social-icons {
+            margin: 20px 0;
+        }
+        .main .social-icons a {
+            margin: 0 10px;
+            font-size: 1.5em;
+            text-decoration: none;
+            color: #333;
+        }
+        .main .buttons {
+            margin: 20px 0;
+        }
+        .main .buttons a {
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            color: white;
+            background-color: #6c63ff;
+        }
+        .main .buttons a:hover {
+            background-color: #5755d9;
+        }
+/* What I Do Section */
+#wido {
+    padding: 50px;
+    background-color: #fff;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wido .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+#wido .left {
+    flex: 1;
+    text-align: center;
+}
+
+#wido .left img {
+    max-width: 100%;
+    height: auto;
+}
+
+#wido.right {
+    flex: 2;
+    padding-left: 50px;
+}
+
+#wido .right h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#wido.right p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#wido .tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#wido .tech-icons i {
+    font-size: 2em;
+    color: #6c63ff;
+}
+
+#wido .right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#wido .right ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+#wido .right ul li::before {
+    content: "⚡";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5em;
+    color: #6c63ff;
+}
+/*performancy section*/
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.text {
+    flex: 1;
+    margin-right: 50px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.proficiency-bar {
+    margin-bottom: 20px;
+}
+
+.proficiency-bar span {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 20px;
+    background-color: #6c63ff;
+    border-radius: 25px;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Skills Section */
+#skills {
+    padding: 50px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+#skills h2 {
+    font-size: 2em;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#skills ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px;
+    background-color: #f4f4f9;
+    margin-top: 50px;
+}
+
+#projects h2 {
+    font-size: 2em;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.project {
+    margin-top: 30px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.project p {
+    font-size: 1.2em;
+    font-family: 'Times of new roman', sans-serif;
+    color: #666;
+    margin-top: 10px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+#contact h2 {
+    font-size: 2em;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#contact ul li a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #eaf6ae;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer nav a {
+    color:black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9em;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
